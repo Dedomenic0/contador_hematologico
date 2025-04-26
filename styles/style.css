@@ -17,7 +17,6 @@ body {
 }
 
 textarea {
-
     width: 9%;
     height: 50%;
     font-size: 1rem;
@@ -25,6 +24,7 @@ textarea {
     border-radius: 8px;
     text-align: center;
     padding: 2px;
+    resize: none;
 }
 
 textarea:hover {
