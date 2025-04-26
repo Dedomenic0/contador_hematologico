@@ -1,0 +1,38 @@
+:root {
+    --cor-primaria: #1B1725;
+    --cor-secundaria: #534B62;
+    --cor-terciaria: #7c7c7c;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    font-family: Arial, sans-serif;
+    color: #534B62;
+    height: 100vh;
+    margin: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+
+    width: 9%;
+    height: 50%;
+    font-size: 1rem;
+    border: 2px solid #534B62;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2px;
+}
+
+textarea:hover {
+    background-color: #7c7c7c;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
